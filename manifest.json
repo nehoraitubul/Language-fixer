@@ -1,0 +1,19 @@
+  { 
+    "name": "Hebrew Converter",
+    "version": "1.0",
+    "description": "Converts selected text to Hebrew",
+    "manifest_version": 3,
+    "permissions": ["activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "commands": {
+      "convertToHebrew": {
+        "suggested_key": {
+          "default": "Ctrl+Q"
+        },
+        "description": "Convert selected text to Hebrew"
+      }
+    }
+  }
+  
