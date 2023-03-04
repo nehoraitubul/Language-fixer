@@ -5,15 +5,14 @@
     "manifest_version": 3,
     "permissions": ["activeTab"],
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "background1.js"
     },
     "commands": {
       "convertToHebrew": {
-        "suggested_key": {
-          "default": "Ctrl+Q"
-        },
+        "suggested_key": "Ctrl+Q",
         "description": "Convert selected text to Hebrew"
+        }
       }
     }
-  }
+  
   

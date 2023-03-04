@@ -1,5 +1,4 @@
-chrome.commands.onCommand.addListener(function(command) {
-    if (command === 'convertToHebrew') {
-        chrome.tabs.executeScript({file: "scripts.js"});
-      }
+chrome.commands.onCommand.addListener((convertToHebrew) => {
+        console.log("my log!");
+        // chrome.tabs.executeScript({file: "scripts.js"});
     });
